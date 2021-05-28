@@ -58,9 +58,10 @@ $ make doc
 $ make install
 ================================================ COMPILE THIS PROJECT ===========================================
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/nttrungmt/ma_foraging/
+$ git clone https://github.com/nttrungmt/rlar_foraging_pub/
 $ cd ..
 $ sudo apt-get install libgsl-dev
 $ sudo apt-get install libjsoncpp-dev
 $ catkin_make
+
 This project is licensed under the terms of GNU GENERAL PUBLIC LICENSE v3.
