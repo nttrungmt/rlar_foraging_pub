@@ -21,22 +21,24 @@ Bash scripts to execute the experiments
 Implement reinforcement learning code for making decision in foraging and MDN code to train rehearsal features
 <h3>srv</h3>
 Implement AIService to communicate between Python code and ARGOS3 experiment C++ code through ROS service
-================================================ INSTALL ROS ===========================================
-$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-$ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-$ sudo apt update
-$ sudo apt install ros-melodic-desktop
-$ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
-$ source ~/.bashrc
-$ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
-$ sudo rosdep init
-$ rosdep update
-$ source /opt/ros/melodic/setup.bash
-$ source devel/setup.bash
-$ echo $ROS_PACKAGE_PATH
-$ mkdir -p ~/catkin_ws/src
-$ cd ~/catkin_ws/
-$ catkin_make
+
+================================================ INSTALL ROS ===========================================<br>
+$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'<br>
+$ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654<br>
+$ sudo apt update<br>
+$ sudo apt install ros-melodic-desktop<br>
+$ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc<br>
+$ source ~/.bashrc<br>
+$ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential<br>
+$ sudo rosdep init<br>
+$ rosdep update<br>
+$ source /opt/ros/melodic/setup.bash<br>
+$ source devel/setup.bash<br>
+$ echo $ROS_PACKAGE_PATH<br>
+$ mkdir -p ~/catkin_ws/src<br>
+$ cd ~/catkin_ws/<br>
+$ catkin_make<br>
+
 ================================================ INSTALL ARGOS3 ===========================================
 $ git clone https://github.com/ilpincy/argos3.git
 $ sudo apt-get install cmake libfreeimage-dev libfreeimageplus-dev qt5-default freeglut3-dev libxi-dev libxmu-dev liblua5.3-dev lua5.3 doxygen graphviz graphviz-dev asciidoc
@@ -56,6 +58,7 @@ $ cmake -DCMAKE_BUILD_TYPE=Release \
 $ make
 $ make doc
 $ make install
+
 ================================================ COMPILE THIS PROJECT ===========================================
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/nttrungmt/rlar_foraging_pub/
