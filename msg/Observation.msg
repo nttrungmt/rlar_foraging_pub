@@ -1,0 +1,15 @@
+int32   curState
+int32   numBeacons
+int32   hasFood
+float32 minDist
+float32 maxDist
+int32   foodClosest
+int32   nestClosest
+int32   foodFarthest
+int32   nestFarthest
+int32   numFoodReturn
+float32 foodDist
+float32 nestDist
+int32   numWalkers
+int32   fHop
+int32   nHop

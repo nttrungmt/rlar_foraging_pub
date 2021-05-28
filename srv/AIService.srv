@@ -1,0 +1,9 @@
+# Role decision for each robot
+uint32[] decisions
+# If this is not size 0 rests robots to specified pose.
+geometry_msgs/Pose2D[] reset_poses
+---
+ma_foraging/Observation[] observations
+float32[] rewards
+bool[] dones
+#uint32[] ids
