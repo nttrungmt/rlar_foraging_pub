@@ -21,7 +21,7 @@ Bash scripts to execute the experiments
 Implement reinforcement learning code for making decision in foraging and MDN code to train rehearsal features
 <h3>srv</h3>
 Implement AIService to communicate between Python code and ARGOS3 experiment C++ code through ROS service
-
+<br>
 ================================================ INSTALL ROS ===========================================<br>
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'<br>
 $ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654<br>
@@ -39,32 +39,32 @@ $ mkdir -p ~/catkin_ws/src<br>
 $ cd ~/catkin_ws/<br>
 $ catkin_make<br>
 
-================================================ INSTALL ARGOS3 ===========================================
-$ git clone https://github.com/ilpincy/argos3.git
-$ sudo apt-get install cmake libfreeimage-dev libfreeimageplus-dev qt5-default freeglut3-dev libxi-dev libxmu-dev liblua5.3-dev lua5.3 doxygen graphviz graphviz-dev asciidoc
-$ cd argos3
-$ mkdir build_simulator
-$ cd build_simulator
-$ cmake -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_INSTALL_PREFIX=~/argos-dist \
-        -DARGOS_BUILD_FOR=simulator \
-        -DARGOS_BUILD_NATIVE=OFF \
-        -DARGOS_THREADSAFE_LOG=ON \
-        -DARGOS_DYNAMIC_LOADING=ON \
-        -DARGOS_USE_DOUBLE=ON \
-        -DARGOS_DOCUMENTATION=ON \
-        -DARGOS_INSTALL_LDSOCONF=ON \
-        ../src
-$ make
-$ make doc
-$ make install
+================================================ INSTALL ARGOS3 ===========================================<br>
+$ git clone https://github.com/ilpincy/argos3.git<br>
+$ sudo apt-get install cmake libfreeimage-dev libfreeimageplus-dev qt5-default freeglut3-dev libxi-dev libxmu-dev liblua5.3-dev lua5.3 doxygen graphviz graphviz-dev asciidoc<br>
+$ cd argos3<br>
+$ mkdir build_simulator<br>
+$ cd build_simulator<br>
+$ cmake -DCMAKE_BUILD_TYPE=Release \<br>
+        -DCMAKE_INSTALL_PREFIX=~/argos-dist \<br>
+        -DARGOS_BUILD_FOR=simulator \<br>
+        -DARGOS_BUILD_NATIVE=OFF \<br>
+        -DARGOS_THREADSAFE_LOG=ON \<br>
+        -DARGOS_DYNAMIC_LOADING=ON \<br>
+        -DARGOS_USE_DOUBLE=ON \<br>
+        -DARGOS_DOCUMENTATION=ON \<br>
+        -DARGOS_INSTALL_LDSOCONF=ON \<br>
+        ../src<br>
+$ make<br>
+$ make doc<br>
+$ make install<br>
 
-================================================ COMPILE THIS PROJECT ===========================================
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/nttrungmt/rlar_foraging_pub/
-$ cd ..
-$ sudo apt-get install libgsl-dev
-$ sudo apt-get install libjsoncpp-dev
-$ catkin_make
-
+================================================ COMPILE THIS PROJECT ===========================================<br>
+$ cd ~/catkin_ws/src<br>
+$ git clone https://github.com/nttrungmt/rlar_foraging_pub/<br>
+$ cd ..<br>
+$ sudo apt-get install libgsl-dev<br>
+$ sudo apt-get install libjsoncpp-dev<br>
+$ catkin_make<br>
+<br>
 This project is licensed under the terms of GNU GENERAL PUBLIC LICENSE v3.
