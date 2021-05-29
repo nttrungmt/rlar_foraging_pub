@@ -1,5 +1,5 @@
 # rlar_foraging_pub
-This public source repository is accompanied with the paper "<b>Reinforcement Learning as a Rehearsal for Swarm Foraging</b>" authored by Trung T. Nguyen and Bikramjit Banerjee
+This public source repository is accompanied with the paper "<b>Reinforcement Learning as a Rehearsal for Swarm Foraging</b>" authored by Trung T. Nguyen and Bikramjit Banerjee, 2021
 
 <h1>Dependencies</h1>
 <h2>Argos 3</h2>
