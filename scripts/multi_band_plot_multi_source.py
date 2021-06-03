@@ -3,9 +3,6 @@ from band_plot import *
 import argparse
 #======================================CHANGE======================================================
 #dir_string = "./log/plot_data/"
-#dir_string = "/home/banerjee/code/MarioData/"
-#dir_string = "/home/banerjee/code/Learning/"
-#dir_string = "/home/banerjee/test/remove/"
 
 fname_ID_range = range(15)
 winsize = 100
@@ -89,14 +86,10 @@ else:
         plot_fname_bases.append('Handcoded_')
         plot_fname_bases.append('DQN_No_HF_')
         plot_fname_bases.append('DQN_Full_HF_')
-        #plot_fname_bases.append('DQN_RLaR_1_')
         plot_fname_bases.append('DQN_RLaR_2_')
-        #plot_fname_bases.append('DQN_RLaR_5_')
     else:
         dir_string = "./log/plot_data_merge_2/"
         plot_fname_bases.append('Handcoded_')
-        #plot_fname_bases.append('DQN_No_HF_')
-        #plot_fname_bases.append('DQN_Full_HF_')
         plot_fname_bases.append('DQN_RLaR_1_')
         plot_fname_bases.append('DQN_RLaR_2_')
         plot_fname_bases.append('DQN_RLaR_5_')
