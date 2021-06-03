@@ -4,17 +4,12 @@ import argparse
 #======================================CHANGE======================================================
 #dir_string = "./log/plot_data/"
 
-fname_ID_range = range(15)
+fname_ID_range = range(35)
 winsize = 100
 alpha = 0.01
 num_plot_points = 200
 max_x = -1 #10000 # -1 if not used
 plot_fname_bases = []
-
-#plot_fname_bases.append('WHATQLambda_')
-#plot_fname_bases.append('HATQLambda_')
-#plot_fname_bases.append('SoHAT/SoHATQLambda')
-#plot_fname_bases.append('QLambda_')
 
 ###plot_fname_bases.append('Hoff_20200225_164932_1500_150_num_food_return_')
 ###plot_fname_bases.append('Hoff_20200225_164932_3000_150_num_food_return_')
