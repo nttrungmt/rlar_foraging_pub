@@ -6,21 +6,9 @@ import os
 import csv
 
 #-----------------------CHANGE-----------------------------------------------------
-#fname_base_string = "/home/banerjee/code/FurnitureMovers/data/JAL_HAT_alpha_0.9_WPub_"
+dir_string = "./data/"
 
-dir_string = "/home/banerjee/code/FurnitureMovers/data/"
-#dir_string = "/home/banerjee/code/gym_data/"
-#dir_string = "/home/banerjee/code/MarioData/SoHAT/"
-
-#fname_base_string = "BDN_CCHAT_Noise0.1_1e-05_"
-#fname_base_string = "BDN_IL_CHAT_Noise0.1_0.9999992_alpha0.001_cThresh0.7_"
-#fname_base_string = "SoHATQLambda_"
 fname_base_string = "GN_IL_HAT_CCorC_Noise0.1_0.999977_alpha0.005_cThresh0.7_"
-
-#fname_base_string = "MC_deepq_"
-#fname_base_string = "FL_False_100000000"
-
-#fname_base_string = 'QLambda_'
 
 n_cols = 1 #x y1 .. yN, N=n_cols
 fname_ID_range = range(8)
